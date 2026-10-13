@@ -1,0 +1,7 @@
+# The APK is 20 MB of someone else's copyrighted artifact and is never committed.
+# apk_test.go skips the bytecode check when it is absent.
+/internal/solidexplorer/testdata/*.apk
+
+# Build output. Root-anchored so a source directory of the same name is not
+# accidentally ignored.
+/solidexplorer-license
